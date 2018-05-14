@@ -8,12 +8,13 @@
     >
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:src="@drawable/androidparty"
         android:scaleType="centerCrop"
+
         />
 
     <TextView
@@ -24,10 +25,21 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif"
-        android:text="Happy Birthday!! Ankita"
+        android:text="Happy Birthday!!"
         android:textColor="#FFFFFF"
         android:textSize="32sp"
+        android:id="@+id/happyBirthday"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/happyBirthday"
+        android:layout_below="@+id/happyBirthday"
+        android:fontFamily="sans-serif"
+        android:text="Ankita"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp" />
 
     <TextView
         android:layout_width="wrap_content"
